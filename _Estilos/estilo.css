@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/*Essa é a Folha de estilos do css para paginas da Fundação Jason*/
+/*Seja bem vindo a Fundação Jason Ramalho Nascimento*/
+body {
+	background-color:#dddddd;
+	color: rgba(red, green, blue, alpha);
+}
+
+div#interface {
+	width: 400px;
+	background-color: #ffffff;
+	margin: 10px auto 10px 10px;
+	box-shadow: 0px 0px 10px rgb(93,93,93);
+	padding: 10px 10px 10px 10px;
+}
+/*Area de formatação de fotos com legenda*/
+figure.foto-legenda {
+	 border: 8px solid white;
+	 box-shadow: 0px 0px 10px rgb(93,93,93);
+}
+
+figure.foto-legenda img {
+	width: 100%;
+	height: 100%;
+}
+
+/*formatação do menu*/
+nav#menu {
+	display: block;
+}
+
+	nav#menu ul {
+		list-style: none;
+		text-transform: uppercase;
+		position: absolute;
+		top: -10px;
+		left: 110px;
+	}
+
+	nav#menu li	{
+		display: inline-block;
+		background-color: #dddddd;
+		padding: 10px;
+		margin: 2px;
+		transition: background-color 1s;
+	}
+	nav#menu li:hover {
+		background-color: #60606060;
+	}
+
+nav#menu h1 {
+	display: none;
+}
+
+nav#menu a {
+	color: black;
+	text-decoration: none;
+}
+nav#menu a:hover{
+	color: #ffffff;
+}
